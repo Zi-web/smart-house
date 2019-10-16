@@ -1,0 +1,691 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Smart-house</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="header-top__wrap">
+          <div class="header__logo">
+            <a href="#">
+              <img src="img/logo.png" alt="">
+            </a>
+          </div>
+          <div class="menu" id="menu">
+            <div class="menu__icon" id="menu__icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="menu__links">
+              <a class="menu__links-item" href="/">Возможности умного дома</a>
+              <a class="menu__links-item" href="/">Выполненные проекты</a>
+              <a class="menu__links-item" href="/">Управление</a>
+              <a class="menu__links-item" href="/">Экономия</a>
+              <a class="menu__links-item" href="/">Контакты</a>
+            </nav>
+          </div>
+          <div class="header__phone">
+            <a href="#">+375 (29) 000 00 00</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__video">
+        <video autoplay muted loop style="display: flex; min-width: 100%; 
+  min-height: 100%">
+          <source src="img/video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="header__title">
+        <h1>Система <span>умный дом</span> под ключ</h1>
+      </div>
+  </header>
+  <!----->
+  <section class="about">
+    <div class="slider">
+        <div class="slider__item fade  slider__item--1">
+          <div class="slide__wrap">
+            <h2 class="slide__title">Финалисты</h2>
+            <p class="slide__subtitle">международного конкурса CEDIA AWARDS 2017 <br>«Best Media Room»</p>
+            <button class="about__btn  phone__btn">Связаться с нами</button>
+          </div>
+        </div>
+        <div class="slider__item fade  slider__item--2">
+          <div class="slide__wrap">
+            <h2 class="slide__title">Мы победители</h2>
+            <p class="slide__subtitle">престижного международного конкурса CEDIA AWARDS 2017 <br>«Best Auto, Marine and Aircraft Project»</p>
+            <button class="about__btn  phone__btn">Связаться с нами</button>
+          </div>
+        </div>  
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div style="text-align:center" class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    
+    </div>
+  </section>
+  <!------2 секция--------->
+  <section class="potential">
+    <header class="potential__header">
+      <h2 class="potential__title">Безграничные возможности Умного Дома</h2>
+      <p class="potential__subtitle">Здесь может быть текст подзаголовка</p>
+    </header>
+      <div class="tab__wrapper">
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'lighting')" id="defaultOpen">
+            <img src="img/1.png" alt="">
+            <span class="tab__text">Освещение
+            </span>
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'climate')">
+            <img src="img/2.png" alt="">
+            <span class="tab__text">
+              Климат
+            </span>
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'heating')">
+            <img src="img/3.png" alt="">
+            <span class="tab__text">
+              Отопление
+            </span>
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'security')">
+            <img src="img/4.png" alt="">
+            <span class="tab__text">
+              Безопасность
+            </span>
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'electric')">
+            <img src="img/5.png" alt="">
+            <span class="tab__text">
+              Электростанция
+            </span>
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'multiroom')">
+            <img src="img/6.png" alt="">
+            <span class="tab__text">
+              Мультирум
+            </span>
+          </button>
+        </div>
+        <div class="tab__content">
+          <div id="lighting" class="tabcontent">
+            <div class="buttons__wrap">
+            <button class="tablinks2 active2"><span>Световые сценарии</span></button>
+            <button class="tablinks2"><span>Автоматизация освещения</span></button>
+            <button class="tablinks2"><span>Умные выключатели</span></button>
+            <button class="tablinks2"><span>Управление шторами, жалюзи и ролетами</span></button>
+           
+            <div class="tab2 show">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+              src="https://www.youtube.com/embed/nMVsYGvTVMk">
+                </iframe>
+              </div>
+                <p>Создавайте собственные сценарии освещения, например: "Раннее пробуждение", "Уютный вечер" или "Рабочий день".</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/nMVsYGvTVMk">
+                </iframe>
+              </div>
+                <p>Освещение автоматически выключается или включается в комфортном режиме. Режим выбирается на основе сигнала с датчиков движения, освещённости и положения дверей.<br>С автоматическим режимом освещения вам не придётся искать выключатель в темноте.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/nMVsYGvTVMk">
+                </iframe>
+              </div>
+                <p>С функцией "привязки выключателей" к группам осветительных приборов управлять освещением во всем доме будет гораздо удобнее. <br>Например, включать свет на кухне выключателем из спальни. Одним выключателем вы можете управлять светом на лестнице, в коридоре и прихожей.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/nMVsYGvTVMk">
+                </iframe>
+              </div>
+                <p>Управляйте внешним освещением вашего дома с помощью автоматической интеллектуальной системы управления.<br>Утром, со звонком будильника, шторы автоматически открываются, а при включении комнатного освещения — закрываются.</p>
+            </div>
+          </div>
+          </div>
+
+          <div id="climate" class="tabcontent">
+            <div class="buttons__wrap">
+            <button class="tablinks2 active2"><span>Климат контроль</span></button>
+            <button class="tablinks2"><span>Зонирование</span></button>
+            <button class="tablinks2"><span>Система вентиляции</span></button>
+            <button class="tablinks2"><span>Увлажнение и осушение воздуха</span></button>
+            <button class="tablinks2"><span>Очиститель воздуха</span></button>
+            <button class="tablinks2"><span>Домашняя метеостанция</span></button>
+
+            <div class="tab2 show">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Единое управление и согласованная работа систем: отопления, теплого пола, вентиляции, кондиционирования, фильтрации и увлажнения воздуха. Интеллектуальная система создаст оптимальную температуру и качество воздуха в вашем доме.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+                <p>Настройте подходящий режим для каждого помещения. В зависимости от назначения помещения, времени или присутствия людей, включится подходящий температурный режим.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Умная вентиляция сама следит за уровнем углекислого газа в помещениях: автоматически включается при необходимости или переходит в энергосберегающий режим.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Задайте необходимую норму влажности воздуха. Если уровень влажности опустится или поднимется относительно заданной нормы, то система автоматически включится, восстановит комфортную для вас норму и перейдёт в экономичный режим.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Умные очистители делают воздух чистым и безопасным. Вас не будет беспокоить аллергия на пыль и шерсть домашних животных.</p>
+              <p>Настройте работу очистителя по удобному для вас графику и наслаждайтесь свежим воздухом дома.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/s4Z494YsOL4">
+                </iframe>
+              </div>
+              <p>Домашняя метеостанция информирует вас о погодной ситуации, оповещает о дожде и снеге. Все климатические системы дома автоматически настраивается с учётом полученной информации.</p>
+            </div>
+          </div>
+          </div>
+
+          <div id="heating" class="tabcontent">
+            <div class="buttons__wrap">
+            <button class="tablinks2 active2"><span>Автоматизация отопления</span></button>
+            <button class="tablinks2"><span>Режимы отопления</span></button>
+            <button class="tablinks2"><span>Радиаторы отопления</span></button>
+            <button class="tablinks2"><span>Теплый пол</span></button>
+            <button class="tablinks2"><span>Умные фанкойлы</span></button>
+            <button class="tablinks2"><span>Система снеготаяния и антиобледенения</span></button>
+
+            <div class="tab2 show">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Создавайте сценарии для отопления с указанием времени и дня недели напрямую из интерфейса системы. Выбирайте нужный вам режим: комфорт, экономия или обычный, и меняйте сценарии во всём доме либо в заданных помещениях одним нажатием.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+                <p>Управляйте режимами отопления вашего дома и экономьте до 30% энергоресурсов.</p>
+                <p>Уезжая, активируйте режим "эконом", и в доме будет поддерживаться минимальная температура.</p>
+                <p>Если вы хотите, чтобы к вашему возвращению дом был прогрет, включите режим "комфорт", используя смартфон или планшет с GSM-модулем.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Интеллектуальная система вашего дома поддерживает комфортную для вас температуру в каждом помещении.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Система автоматически регулирует температуру пола.</p>
+
+              <p>Во время вашего отсутствия система поддерживает минимальную температуру — это позволяет значительно снизить энергозатраты.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Фанкойл — централизованная, многозональная система кондиционирования воздуха.</p>
+              <p>Управляйте подачей тепла и мощностью вентиляции при помощи фанкойла. Настройте автоматический режим или используйте единый пульт управления Умным Домом.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/s4Z494YsOL4">
+                </iframe>
+              </div>
+              <p>Обезопасьте себя и ваших близких.</p>
+              <p>Системы снеготаяния и антиобледенения включаются автоматически при обледенении водостоков, крыши, наружных ступеней и тротуарных дорожек.</p>
+            </div>
+          </div>
+          </div>
+
+          <div id="security" class="tabcontent">
+            <div class="buttons__wrap">
+            <button class="tablinks2 active2"><span>Контроль и предотвращение аварийных ситуаций</span></button>
+            <button class="tablinks2"><span>Контроль доступа</span></button>
+            <button class="tablinks2"><span>Имитация присутствия</span></button>
+            <button class="tablinks2"><span>Дистанционное видеонаблюдение</span></button>
+
+            <div class="tab2 show">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>При срабатывании датчиков протечки воды система автоматически перекрывает воду.</p>
+              <p>При возгорании — активируется система пожаротушения, и вентиляция переводится в максимальный режим.</p>
+              <p>При утечке газа — автоматически перекрывается клапан подачи газа.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+                <p>При несанкционированном проникновении постороннего человека на территорию дома сработают датчики охраны периметра. Система активирует звуковую и световую сигнализацию и отправит вам сообщение о проникновении.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Вам необходимо оставить свой дом на несколько дней, но вы не хотите, чтобы об этом кто-либо узнал?</p>
+              <p>Система Умный дом создаст иллюзию присутствия хозяев дома: автоматически включит свет вечером, откроет шторы, включит телевизор и музыку по заданному сценарию, также может раздаваться лай собаки и разговор людей.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/Dn_R-JYO1EE">
+                </iframe>
+              </div>
+              <p>Управляйте камерами видеонаблюдения в режиме онлайн. Запись может производиться постоянно или только при срабатывании датчиков движения. Видеоархив записывается по зашифрованному каналу и сохраняется на удаленном сервере. Вы можете просмотреть запись с камер в любое время.</p>
+            </div>
+            </div>
+       
+          </div>
+
+          <div id="electric" class="tabcontent">
+            <div class="buttons__wrap">
+            <button class="tablinks2 active2"><span>Стабилизация напряжения</span></button>
+            <button class="tablinks2"><span>Резервное питание</span></button>
+            <button class="tablinks2"><span>Генератор автономного питания</span></button>
+            <button class="tablinks2"><span>Молниезащита</span></button>
+            <button class="tablinks2"><span>Управление розетками</span></button>
+
+            <div class="tab2 show">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>Стабилизатор напряжения надежно защищает бытовую технику и электрические приборы от повреждений, вызываемых скачками напряжения в сети.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+                <p>Современное оборудование резервного питания обеспечивает стабильную работу всех систем дома в случае непредвиденного отключения электроэнергии.</p>
+                <p>При этом вам отправляется оповещение об отключении электричества на телефон или электронную почту.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>Генератор используется совместно с оборудованием резервного питания для заряда аккумуляторов. Благодаря генератору автономного питания обеспечивается бесперебойное аварийное электроснабжение дома.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>Внешняя молниезащита принимает на себя ток молнии и отводит его по токоотводам в систему заземления, где энергия разряда безопасно рассеивается.</p>
+              <p>Внутренняя молниезащита ограничивает импульсные перенапряжения, которые возникают вследствие прямых и непрямых попаданий молнии.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>Благодаря тому, что все розетки в доме связаны в единую сеть, можно легко управлять целой группой электроприборов или каждым прибором в отдельности.</p>
+              <p>Находясь вдалеке от дома, можно отключить забытый утюг или плиту.</p>
+              <p>Если вы не хотите, чтобы ребёнок смотрел телевизор после 21:00, настройте сценарий отключения телевизионной розетки в заданное время.</p>
+            </div>
+            </div>
+       
+          </div>
+
+          <div id="multiroom" class="tabcontent">
+            <div class="buttons__wrap">
+            <button class="tablinks2 active2"><span>Волшебство внутри</span></button>
+            <button class="tablinks2"><span>Функция AirPlay</span></button>
+            <button class="tablinks2"><span>Зонирование аудио- и видеосигнала</span></button>
+            <button class="tablinks2"><span>Централизованное управление</span></button>
+            <button class="tablinks2"><span>Авторегулятор громкости</span></button>
+            
+            <div class="tab2 show">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <ul>
+                <li>простая настройка звука и видеоряда, эквалайзер,</li>
+                <li>моментальное создание, редактирование и загрузка плейлистов,</li>
+                <li>воспроизведение музыки и видео на любом медиа устройстве,</li>
+                <li>отправка голосовых сообщений из одной комнаты в другую и возможность отвечать на них,</li>
+                <li>удобные оповещения (например, о текущей погоде или запланированных делах),</li>
+                <li>магия музыки — звук следует за вами из одной комнаты в другую.</li>
+              </ul>
+            
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+                <p>Вы можете воспроизводить музыку на любых медиа устройствах вашего дома одним нажатием. Для этого достаточно использовать «сторонний» аудиоресивер.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>В каждом помещении дома может воспроизводиться своя музыка, например, в рабочем кабинете играет классика, в баре — джаз, а в детской — музыкальная сказка. Также в каждой зоне может играть своя радиостанция.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>Система мультирум позволяет централизованно управлять источниками аудио- и видеосигнала в каждой комнате вашего дома.</p><p>Вы можете слушать музыку и видеть изображение, а также управлять ими в любой части вашего дома, независимо от того, где установлено воспроизводящее оборудование.</p>
+            </div>
+            <div class="tab2">
+              <div class="tabcontent2__video">
+                <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="300"
+                src="https://www.youtube.com/embed/V4HLfM02Tp8">
+                </iframe>
+              </div>
+              <p>С Умным домом вы не пропустите входящий звонок, а вашим гостям не придётся ждать на пороге.</p>
+              <p>Система Мультирум автоматически снижает громкость музыки и телевизора, при входящем телефонном вызове или дверном звонке.</p>
+            </div>
+            </div>
+        
+          </div>
+
+      </div>
+    </div>
+  </section>
+  <!------выполненные проекты-------->
+  <section class="projects"> 
+    <header class="projects__header">
+      <h2 class="projects__title">Выполненные проекты</h2>
+      <p class="projects__subtitle">Здесь может быть текст подзаголовка</p>
+    </header>
+      <div class="projects__wrapper">
+
+    <div class="projects-slider">
+      <div class="projects-slider__wrapper">
+        <div class="projects-slider__item">
+          <figure class="projects-slider__content">
+            <!---<iframe class="video__video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="270"
+              src="https://www.youtube.com/embed/hQUdmTeF26g">
+            </iframe>--->
+            <div class="youtube" id="hQUdmTeF26g" style="width:100%; height:270px;"></div>
+            <figcaption><p>Солнечный дом в пригороде</p><span style="opacity: 0;">Подробнее</span></figcaption>
+          </figure>
+        </div>
+        <div class="projects-slider__item">
+          <figure class="projects-slider__content">
+            <!---<iframe class="video__video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="270"
+            src="https://www.youtube.com/embed/2VKZ3mz-49s">
+            </iframe>--->
+            <div class="youtube" id="2VKZ3mz-49s" style="width:100%; height:270px;"></div>
+            <figcaption><p>Солнечный дом в пригороде</p><span style="opacity: 0;">Подробнее</span></figcaption>
+          </figure>
+        </div>
+        <div class="projects-slider__item">
+          <figure class="projects-slider__content">
+            <!---<iframe class="video__video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="270"
+            src="https://www.youtube.com/embed/V4HLfM02Tp8">
+            </iframe>--->
+            <div class="youtube" id="V4HLfM02Tp8" style="width:100%; height:270px;"></div>
+            <figcaption><p>Солнечный дом в пригороде</p><span style="opacity: 0;">Подробнее</span></figcaption>
+          </figure>
+        </div>
+        <div class="projects-slider__item">
+          <figure class="projects-slider__content">
+            <!---<iframe class="video__video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="270"
+            src="https://www.youtube.com/embed/2VKZ3mz-49s">
+            </iframe>--->
+            <div class="youtube" id="2VKZ3mz-49s" style="width:100%; height:270px;"></div>
+            <figcaption><p>Солнечный дом в пригороде</p><span style="opacity: 0;">Подробнее</span></figcaption>
+          </figure>
+        </div>
+        <div class="projects-slider__item">
+          <figure class="projects-slider__content">
+            <!---<iframe class="video__video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="270"
+            src="https://www.youtube.com/embed/hQUdmTeF26g">
+            </iframe>--->
+            <div class="youtube" id="hQUdmTeF26g" style="width:100%; height:270px;"></div>
+            <figcaption><p>Солнечный дом в пригороде</p><span style="opacity: 0;">Подробнее</span></figcaption>
+          </figure>
+        </div>
+        <div class="projects-slider__item">
+          <figure class="projects-slider__content">
+            <div class="youtube" id="2VKZ3mz-49s" style="width:100%; height:270px;"></div>
+            <figcaption><p>Солнечный дом в пригороде</p><span style="opacity: 0;">Подробнее</span></figcaption>
+          </figure>
+        </div>
+      </div>
+      <a class="projects-slider__control projects-slider__control_left" href="#" role="button"></a>
+      <a class="projects-slider__control projects-slider__control_right" href="#" role="button"></a>
+    </div>
+  </div>
+
+  </section>
+  <!------Новые возможности для дизайнера-------->
+  <section class="chance">
+    <header class="chance__header">
+      <h2 class="chance__title">Новые возможности <span>для дизайнеров</span></h2>
+    </header>
+    <div class="chance__wrapper">
+      <ul class="chance__items"> 
+        <li class="chance__item  chance__item--1">
+          <div class="chance__item--1bg"></div>
+          <div class="chance__text">
+            <span>01.</span>
+            <p>Функционал умного дома даёт возможность реализовать в одной комнате сразу несколько интерьеров</p>
+          </div>
+        </li>
+        <li class="chance__item  chance__item--2">
+          <div class="chance__item--2bg"></div>
+          <div class="chance__text  fade">
+            <span>02.</span>
+            <p>Конкурентное преимущество, отличающее нас от дизайнеров вашего города</p>
+          </div>
+        </li>
+        <li class="chance__item  chance__item--3">
+          <div class="chance__item--3bg"></div>
+          <div class="chance__text  fade">
+            <span>03.</span>
+            <p>Партнёрская программа со множеством скидок и бонусов</p>
+          </div>
+        </li>
+        <li class="chance__item  chance__item--4">
+          <div class="chance__item--4bg"></div>
+          <div class="chance__text  fade">
+            <span>04.</span>
+            <p>Дополнительная реклама ваших работ на нашем сайте</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!---------------Экономия----------->
+  <section class="economy">
+    <h2 class="economy__title"><span>Экономия до 20%</span> с умным домом</h2>
+    <div class="economy__items">
+      <div class="economy__item">
+        <div class="economy__item-name">
+          <p>Система Умный дом позволяет экономить ваши <span>расходы на электроэнергию, газ и воду</span></p>
+        </div>
+        <div class="economy__item-number">
+          до <span><span id="test">20</span>%<sup>*</sup></span>
+        </div>
+        <div class="economy__item-text">
+          * по результатам исследования SmartHome
+        </div>
+      </div>
+      <div class="economy__item">
+        <div class="economy__item-name">
+          <p>Затраты на установку системы <span>окупаются</span> в среднем</p>
+        </div>
+        <div class="economy__item-number">
+          за <span id="test1">10</span> месяцев*
+        </div>
+        <div class="economy__item-text">
+          * по результатам исследования SmartHome
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!---------------Наши контакты----------->
+  <section class="contacts">
+    <h2 class="contacts__title">Наши<span> контакты</span></h2>
+        <div class="contacts__wrapper">
+          <div class="contacts__blocks">
+            <div class="contacts__block">
+              <div class="phone">
+                <div class="phone__title">
+                  <span>Позвоните нам</span>
+                </div>
+                  <p>Телефон / WhatsApp<br>
+                  <a href="tel:78632269073" class="phone__whatsapp">+7 (863) 226-90-73</a><br>
+                  <a href="tel:491744671919" class="phone__whatsapp">+49 (174) 467-19-19</a></p>
+              </div>
+              <div class="email">
+                <div class="email__title">
+                  <span>Напишите нам</span>
+                </div>
+                <p>info@medstudium.ru</p>
+              </div>
+            </div>
+            <div id="contacts__ya-map" class="contacts__ya-map-desktop">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A64235dc79b1ee95f9f450f8799a9046890d845dbabe178e3c42a655e4f4e3738&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+          </div>
+          </div>
+
+          <div id="contacts__ya-map" class="contacts__ya-map-mob">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A64235dc79b1ee95f9f450f8799a9046890d845dbabe178e3c42a655e4f4e3738&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+          </div>
+
+          <fieldset class="contacts__form-fieldset">
+          <form class="contacts__form" action="/echo" method="post">
+            <legend>Напишите нам</legend>
+            <p class="contacts__form-text">Мы всегда на связи</p>
+
+            <label for="name"></label>
+            <input type="text" name="name" required placeholder="Введите ваше имя *" id="name" class="contacts__form-name">
+
+            <label for="email"></label>
+            <input type="email" name="email" required placeholder="Ваш Email *" id="email" class="contacts__form-email">
+
+            <label for="tel"></label>
+            <input type="tel" name="tel" required placeholder="Номер телефона *" class="contacts__form-tel">
+
+            <label for="message"></label>
+            <textarea name="message" id="message" rows="7" required placeholder="Ваше сообщение *" class="contacts__form-message"></textarea>
+
+            <div class="contacts__form-pers">
+              <label for="cb">
+              <input type="checkbox" name="subscribe" id="subscribe-field" class="contacts__form-check">*Нажав кнопку "Отправить сообщение" вы даете согласие на обработку <a href="#">персональных данных</a>
+              </label>
+            </div>
+            <button type="submit" class="contacts__form-btn">Отправить сообщение</button>
+          </form>
+          </fieldset>    
+        </div>
+      </div>
+  </section>
+  <!------Форма обратной связи попап-------->
+  <div class="popup-form  modal-content">
+    <div class="form-wrap">  
+      <span class="form__close"></span>
+      <form action="/echo" method="post" class="form" id="form" name="contact_form" onsubmit="return validate();">
+        <div class="form__header">
+          <h3 class="form__title">Закажите звонок</h3>
+        </div>
+        <div class="input__wrap">
+
+        <div class="popup-consultation__input  popup-consultation__input--name">
+          <input type="text" name="login" placeholder="Ваше имя" id="name">
+        </div>
+        <div class="popup-consultation__input  popup-consultation__input--email">
+          <input type="email" name="email" placeholder="Ваш электронный адрес" id="email">
+        </div>
+        <div class="popup-consultation__input  popup-consultation__input--tel">
+          <input type="tel" id="tel" name="tel" placeholder="Ваш номер телефона">
+        </div>
+
+        <div class="popup-consultation__btn">
+          <button type="submit" class="btn--popup-consultation">Перезвоните мне</button>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div> 
+  
+  <script type="text/javascript" src="js/slider.js"></script>
+  <script type="text/javascript" src="js/popup-form.js"></script>
+  <script type="text/javascript" src="js/tab.js"></script>
+  <script type="text/javascript" src="js/tab2.js"></script>
+  <script type="text/javascript" src="js/slider-3.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/youtube.js"></script>
+  <script type="text/javascript" src="js/number.js"></script>
+  <!---<script type="text/javascript" src="js/modal-video.js"></script>---->
+
+  </body>
+</html>
