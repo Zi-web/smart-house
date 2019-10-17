@@ -764,12 +764,12 @@ template {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .slider__item--1 {
-  background-image: url(../img/Optimized-bg_1.jpg);
+  background-image: url(../img/bg_1min.jpg);
   background-position: center;
   background-size: cover;
 }
 .slider__item--2 {
-  background-image: url(../img/Optimized-bg_2.jpg);
+  background-image: url(../img/bg_2min.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -850,7 +850,7 @@ template {
 .projects {
   width: 100%;
   min-height: 640px;
-  background-image: url(../img/project.jpg);
+  background-image: url(../img/project-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1018,7 +1018,7 @@ iframe {
 .chance {
   width: 100%;
   min-height: 100vh;
-  background-image: url(../img/design.jpg);
+  background-image: url(../img/design-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1233,7 +1233,7 @@ iframe {
 .header {
   height: 100vh;
   color: #fff;
-  background: #000000 url(../img/header.jpg) 50% 50% no-repeat;
+  background: #000000 url(../img/header-min.jpg) 50% 50% no-repeat;
 }
 .header-top {
   box-sizing: border-box;
