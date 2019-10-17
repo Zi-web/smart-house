@@ -393,14 +393,12 @@ template {
 .form__header {
   background-color: #f7f7f7;
   width: 100%;
-  /*height: 40px;*/
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
 }
 .form__title {
-  /*text-shadow: 1px 1px 2px black, 0 0 1em #000;*/
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat';
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -414,12 +412,10 @@ template {
   box-sizing: border-box;
   overflow: hidden;
   margin: 0 auto 10px auto;
-  /*width: 380px;
-  height: 50px;*/
   box-shadow: none;
 }
 .btn--popup-consultation {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat';
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
@@ -506,7 +502,7 @@ template {
   padding: 0 0 0 25px;
   border-radius: 5px;
   border: 1px solid #c0c4c3;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat';
 }
 .popup-consultation__input:hover {
   border-color: #848999;
@@ -527,11 +523,11 @@ template {
 }
 .potential__title {
   font-size: 24px;
-  font-family: Arial;
+  font-family: 'Montserrat';
 }
 .potential__subtitle {
   font-size: 18px;
-  font-family: Arial;
+  font-family: 'Montserrat';
 }
 .tab__wrapper {
   margin: 0 auto;
@@ -544,8 +540,7 @@ template {
   align-items: flex-start;
 }
 .tab {
-  font-family: Arial;
-  /*float: left;*/
+  font-family: 'Montserrat';
   box-sizing: border-box;
   background-color: transparent;
   width: 40%;
@@ -595,13 +590,6 @@ template {
   font-size: 24px;
   position: relative;
 }
-.tab button:not(:last-child) {
-  /*border-bottom: 1px solid #ddd;*/
-}
-/* Change background color of buttons on hover */
-.tab button:hover {
-  /*background-color: #bb1515;*/
-}
 /* Create an active/current "tab button" class */
 .tab button.active img {
   transform: scale(1.5, 1.5);
@@ -622,7 +610,7 @@ template {
   flex-direction: column;
   transition: all 0.5s ease;
   font-size: 16px;
-  font-family: Arial;
+  font-family: 'Montserrat';
 }
 .tab__text {
   display: inline-block;
@@ -716,7 +704,7 @@ template {
   width: 100%;
   z-index: 1;
   position: relative;
-  font-family: Arial;
+  font-family: 'Montserrat';
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 700;
@@ -756,7 +744,7 @@ template {
 .slide__subtitle {
   width: 100%;
   color: #fff;
-  font-family: Arial;
+  font-family: 'Montserrat';
   font-size: 26px;
   z-index: 1;
 }
@@ -776,12 +764,12 @@ template {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .slider__item--1 {
-  background-image: url(../img/bg_1.jpg);
+  background-image: url(../img/Optimized-bg_1.jpg);
   background-position: center;
   background-size: cover;
 }
 .slider__item--2 {
-  background-image: url(../img/bg_2.jpg);
+  background-image: url(../img/Optimized-bg_2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -877,14 +865,14 @@ template {
 }
 .projects__title {
   font-size: 24px;
-  font-family: Arial;
+  font-family: 'Montserrat';
   color: #ffffff;
   font-weight: bold;
   text-shadow: 1px 1px 2px black, 0 0 1em #000;
 }
 .projects__subtitle {
   font-size: 18px;
-  font-family: Arial;
+  font-family: 'Montserrat';
   color: #ffffff;
   font-weight: bold;
   text-shadow: 1px 1px 2px black, 0 0 1em #000;
@@ -907,14 +895,11 @@ template {
   box-sizing: border-box;
   padding-left: 40px;
   padding-right: 40px;
-  /*padding-top: 50px;*/
 }
 .projects-slider__wrapper {
   max-width: 1200px;
   box-sizing: border-box;
   display: flex;
-  /*justify-content: center;*/
-  /*align-items: center;*/
   transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;
@@ -960,7 +945,6 @@ template {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   opacity: 1!important;
-  /*border-bottom: none;*/
 }
 .projects-slider__content span:hover {
   border-bottom: none;
@@ -1071,7 +1055,7 @@ iframe {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  font-family: Arial;
+  font-family: 'Montserrat';
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -1306,7 +1290,6 @@ iframe {
 .header__phone a:hover {
   color: #00bff3;
 }
-/*responsive menu*/
 .menu {
   text-align: right;
   background-color: #1b1e20;
@@ -1645,7 +1628,6 @@ iframe {
 @media (max-width: 728px) {
   .chance__text {
     width: 50%;
-    /*text-align: center;*/
     margin: 0;
     padding: 0;
     margin-left: 20px;
@@ -1660,6 +1642,58 @@ iframe {
   .chance__item {
     margin-bottom: 15px;
     justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .form-wrap {
+    width: 80%;
+  }
+  .popup-consultation__input {
+    width: 90%;
+    max-width: 300px;
+  }
+  .popup-consultation__input input {
+    font-size: 14px;
+  }
+  .popup-consultation__close {
+    right: 10px;
+    top: 30px;
+  }
+  .popup-consultation__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .economy__item {
+    flex-direction: column;
+    padding: 10px 5px;
+  }
+  .economy__item-name {
+    text-align: center;
+    width: 90%;
+  }
+  .economy__item-number {
+    width: 90%;
+  }
+  .economy__item-text {
+    width: 90%;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 812px) {
+  .tab__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tab {
+    width: 80%;
+    min-height: 100%;
+  }
+  .tab__content {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1697,70 +1731,6 @@ iframe {
     border-top: 2px dashed #bbb;
     padding-top: 30px;
     display: block;
-  }
-}
-@media (max-width: 768px) {
-  .form-wrap {
-    width: 80%;
-  }
-  .form__header {
-    /*height: 55px;*/
-  }
-  .popup-consultation__input {
-    width: 90%;
-    max-width: 300px;
-  }
-  .popup-consultation__input input {
-    font-size: 14px;
-  }
-  .popup-consultation__btn {
-    /*width: 90%;
-      max-width: 300px;*/
-  }
-  .popup-consultation__close {
-    right: 10px;
-    top: 30px;
-  }
-  .popup-consultation__title {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  .economy__item {
-    flex-direction: column;
-    padding: 10px 5px;
-  }
-  .economy__item-name {
-    text-align: center;
-    width: 90%;
-  }
-  .economy__item-number {
-    width: 90%;
-  }
-  .economy__item-text {
-    width: 90%;
-    text-align: center;
-    padding: 20px 0;
-  }
-}
-@media (max-width: 468px) {
-  /*.tab__content {
-		display: none;
-	}*/
-}
-@media screen and (max-width: 812px) {
-  .tab__wrapper {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .tab {
-    width: 80%;
-    min-height: 100%;
-  }
-  .tab__content {
-    box-sizing: border-box;
-    width: 90%;
-    padding: 0;
   }
 }
 @media (max-width: 630px) {
